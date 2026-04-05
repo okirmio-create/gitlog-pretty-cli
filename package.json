@@ -1,0 +1,40 @@
+{
+  "name": "gitlog-pretty-cli",
+  "version": "1.0.0",
+  "description": "Beautiful git log viewer with colors and formatting",
+  "type": "module",
+  "bin": {
+    "gitlog-pretty": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "okirmio",
+  "keywords": [
+    "git",
+    "log",
+    "pretty",
+    "cli",
+    "colors",
+    "formatting",
+    "changelog",
+    "conventional-commits"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okirmio-create/gitlog-pretty-cli.git"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "chalk": "^5.4.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3",
+    "@types/node": "^22.12.0"
+  }
+}
